@@ -28,16 +28,16 @@ const dashboardRoutes = [
   {
     path: "/user",
     sidebarName: "Timeline",
-    navbarName: "Profile",
+    navbarName: "Timeline",
     icon: "timeline",
     component: UserProfile
   },
   {
-    path: "/table",
+    path: "/map",
     sidebarName: "Location",
-    navbarName: "Table List",
+    navbarName: "Location",
     icon: "map",
-    component: TableList
+    component: Maps
   },
   { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];
